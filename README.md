@@ -7,9 +7,10 @@ This project uses PyTorch and a small Yolov5 model to generate statistics on 'fo
 
 ## Description
 
-By leveraging Kera's functional architecture we can specify and compile a custom model for identifying one of 8 possible
-diagnoses when presented with a patients ocular scans. This will allow faster, more accurate, and more convenient diagnosis
-for many common issues that are traditionally found manually during an optometrist's review.
+By using PyTorch and Yolov5s, we can detect and quantify the types of pedestrians on a boardwalk into either 
+bicycle or foot traffic. By using this as well as a well timed constant duration between image samples gathered
+( for real deployment not demo mode ), we are then able to average the traffic in a location accurately without
+the need for kalman or re-id tracking/filtering.
 
 ## Usage
 There are a few parameters that control the way the program works, for example:
